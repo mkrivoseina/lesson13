@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\Lietotajs\Desktop\CODE\bootcamp\lesson13\lesson13\6th-task\CSS\style6.css">
+</head>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <div class="white-container">
+        <div class="margin-top">
+            <h3>Tell us something positive that happened to you today.</h3>
+            <form method="POST">
+                <div class="left">
+                    <label for="name-input">Name</label>
+                </div>
+                <div class="right">
+                    <input type="text" name="name" id="name-input" placeholder="Enter your name">
+                </div>
+                <div class="left">
+                    <label for="email-input">Email</label>
+                </div>
+                <div class="right">
+                    <input type="text" name="email" id="email-input" placeholder="Enter your email address">
+                </div>
+                <div class="left">
+                    <label for="scale-input">On a scale from 1-10, how good was it?</label>
+                </div>
+                <div class="right">
+                    <input type="text" name="scale" id="scale-input" placeholder="Enter a number between 1 and 10">
+                </div>
+                <div class="left">
+                    <label for="where">Where did it happen?</label>
+                </div>
+                <div class="right">
+                    <select id="where" name="where">
+        <option value="home" class="right">At home</option>
+        <option value="work" class="right">At work</option>
+    </select>
+                </div>
+                <div class="left">
+                    <label for="time-input">At what time of day did it happen?</label>
+                </div>
+                <div class="column-1 right">
+                    <div>
+                        <input type="radio" name="time-day" id="time-morning">
+                        <label for="time-morning">Morning</label> <br>
+                    </div>
+                    <div>
+                        <input type="radio" name="time-day" id="time-afternoon">
+                        <label for="time-afternoon">Afternoon</label> <br>
+                    </div>
+                    <div>
+                        <input type="radio" name="time-day" id="time-evening">
+                        <label for="time-evening">Evening</label> <br>
+                    </div>
+                </div>
+
+                <div class="left">
+                    <label for="">What emotions did you experience? <br> (Select all that apply)</label>
+                </div>
+                <div class="column-1 right">
+                    <div>
+                        <input type="checkbox" name="emotions" id="em-excited">
+                        <label for="em-excited">Excited</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emotions" id="em-humbled">
+                        <label for="em-humbled">Humbled</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emotions" id="em-elated">
+                        <label for="em-elated">Elated</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emotions" id="em-loved">
+                        <label for="em-loved">Loved</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="emotions" id="em-enth">
+                        <label for="em-enth">Enthusiastic</label>
+                    </div>
+                </div>
+                <div class="row-1">
+                    <div class="left">
+                        <label for="add-experience">Please describe your positive experience.</label>
+                    </div>
+                    <div class="right">
+                        <textarea name="experience" id="add-experience" cols="30" rows="3" placeholder="Enter your experience here..."></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input class="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
